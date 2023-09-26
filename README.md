@@ -87,6 +87,8 @@ Storage Value at Slot 0: 0x0x000000000000000000000000000000000000000000000000000
 
 ## Conclusion
 
+<img width="569" alt="image" src="https://github.com/Logosdibta/Swisstronik_LW3_CC3/assets/97156724/7381b3d5-7d2c-4ec6-90d3-1deadf8283c8">
+
 `01. Provide an explanation of the value retrieved from the RPC call.`   
 <br>
 ✅ Swisstronik Network:  
