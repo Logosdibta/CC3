@@ -14,7 +14,7 @@ Make a JSON RPC call using eth_getStorageAt() to get the first storage variable 
 0xf84Df872D385997aBc28E3f07A2E3cd707c9698a 
 ```
 
-Installation Package (I'm using new folder and forget and fresh)
+Installation Package (I'm using new folder and fresh)
 
 ```
 npm install
@@ -89,11 +89,13 @@ Storage Value at Slot 0: 0x0x000000000000000000000000000000000000000000000000000
 
 `01. Provide an explanation of the value retrieved from the RPC call.`   
 <br>
-✅ Swisstronik Network:
+✅ Swisstronik Network:  
+
 ✔ Value: 0xc73e7f645a2bf1365a0903afa03a2cb5029ba989df7844b0fe7751b1ba918ea4    
 ✔ Explanation: This hexadecimal string represents the raw data stored in the contract's first storage slot, which corresponds to the private message variable. The value 0xc73e7f645a2bf1365a0903afa03a2cb5029ba989df7844b0fe7751b1ba918ea4 encodes the current message stored in the contract. This value can change when someone calls the setMessage() function to update the message.   
 <br>
-✅ Mumbai Network and Sepolia Network:   
+✅ Mumbai Network and Sepolia Network:  
+
 ✔ Value: 0x0000000000000000000000000000000000000000000000000000000000000000   
 ✔ Explanation: These values are also hexadecimal strings, but they consist entirely of zeros. This suggests that either no meaningful data was stored in the first storage slot of the contract on these networks. Essentially, it indicates that there is no message stored in the contract on these networks, or the message is an empty string.   
 <br>
